@@ -10,7 +10,9 @@ export default function HomeLeft() {
   return (
     <div className=''>
       <div className='font-bodyFont flex flex-col gap-2  '>
-        <p className='mdl:text-[24px] text-[18px]   '>Welcome to my coding corner!</p>
+        <p className='mdl:text-[24px] text-[18px]   '>WELCOME MY WORLD
+
+</p>
         <h1 className='mdl:text-[36px] text-[25px] font-bold'>Hello 👋, I'm Rahul Baishnab</h1>
         <span className='mdl:text-[26px] text-[18px] font-bold'>A seasoned  <span className='text-green-500'>{text}</span></span>
 
