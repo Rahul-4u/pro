@@ -46,8 +46,8 @@ export default function Header() {
 
           {
             Show && (
-              <div className=' w-[100%] h-screen absolute inline-block bg-slate-500 left-0 top-15'>
-                <ul className='  justify-between items-center '>
+              <div className=' w-[100%] h-screen absolute z-50 inline-block bg-slate-800 left-0 top-15'>
+                <ul className='  justify-between items-center  '>
         <li className=' nav-link '>
               <Link to={'/'} >Home</Link>
        </li>
