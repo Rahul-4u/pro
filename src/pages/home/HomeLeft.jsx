@@ -14,7 +14,8 @@ export default function HomeLeft() {
 
 </p>
         <h1 className='mdl:text-[36px] text-[25px] font-bold'>Hello 👋, I'm Rahul Baishnab</h1>
-        <span className='mdl:text-[26px] text-[18px] font-bold'>A seasoned  <span className='text-green-500'>{text}</span></span>
+        
+        <span className='mdl:text-[26px] text-[30px] font-bold'> A seasoned  <span className='text-green-500'>{text}</span></span>
 
       </div>
       <br />
