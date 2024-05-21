@@ -1,5 +1,7 @@
 import React from 'react'
 import { useTypewriter } from 'react-simple-typewriter'
+import { Slide } from "react-awesome-reveal";
+
 
 
 export default function HomeLeft() {
@@ -9,6 +11,8 @@ export default function HomeLeft() {
       })
   return (
     <div className=''>
+      
+      <Slide>
       <div className='font-bodyFont flex flex-col gap-2  '>
         <p className='mdl:text-[24px] text-[18px]   '>WELCOME MY WORLD
 
@@ -20,6 +24,8 @@ export default function HomeLeft() {
       </div>
       <br />
       <button className=' text-[15px] font-bold border-2 py-1 px-3  border-rose-600'>Click Me </button>
+
+      </Slide>
 
     </div>
   )
