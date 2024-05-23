@@ -23,7 +23,7 @@ export default function HomeLeft() {
 
       </div>
       <br />
-      <button className=' text-[15px] font-bold border-2 py-1 px-3  border-rose-600'>Click Me </button>
+      <button className=' text-[15px] font-bold border-2 py-1 px-3  border-rose-600  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '>Click Me </button>
 
       </Slide>
 

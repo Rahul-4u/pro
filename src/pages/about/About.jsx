@@ -1,10 +1,20 @@
 import React from 'react'
+import TitelOne from '../TitelOne'
 
 export default function About() {
   return (
-    <div>
-      <button className='bg-red-600 transition delay-150 duration-300 ease-in-out'>hi</button>
-      <button className="transition duration-300 delay-150 hover:delay-300">Button A</button>
+    <div className=' bg-slate-600'>
+      <div>
+        <div className=' after:w-32 after:h-2 after:bg-white after:absolute'>
+          <TitelOne name="About Me"/>
+        </div>
+
+
+        <div></div>
+
+
+      </div>
+
     </div>
   )
 }
