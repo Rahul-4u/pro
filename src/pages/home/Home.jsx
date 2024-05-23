@@ -1,13 +1,15 @@
 import React from 'react'
 import MeinHome from '../MeinHome'
-import About from '../about/About'
+import AboutSe from '../about/AboutSe'
 
 
 export default function Home() {
   return (
-   <div>
+   <div className=''>
     <MeinHome/>
-    <About/>
+
+    <AboutSe/>
+    
    </div>
   )
 }

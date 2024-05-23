@@ -1,19 +1,14 @@
 import React from 'react'
-import TitelOne from '../TitelOne'
+import { Fade } from 'react-awesome-reveal'
 
 export default function About() {
   return (
-    <div className=' bg-slate-600'>
-      <div>
-        <div className=' after:w-32 after:h-2 after:bg-white after:absolute'>
-          <TitelOne name="About Me"/>
-        </div>
-
-
-        <div></div>
-
-
-      </div>
+    <div>
+    <Fade cascade damping={0.1}>
+  <p>I enter first...</p>
+  <p>...then comes my turn...</p>
+  <p>...and finally you see me!</p>
+</Fade>
 
     </div>
   )
