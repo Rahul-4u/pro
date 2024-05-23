@@ -8,6 +8,7 @@ export default function About() {
   <p>I enter first...</p>
   <p>...then comes my turn...</p>
   <p>...and finally you see me!</p>
+  <h1>ikuyioyuiouy</h1>
 </Fade>
 
     </div>
